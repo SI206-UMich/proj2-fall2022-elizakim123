@@ -4,9 +4,9 @@ import re
 import os
 import csv
 import unittest
-#List who you worked with on this project: Abhinav Tadikonda
+#List who you worked with on this project: Abhinav Tadikonda, Stella Young
 
-def get_listings_from_search_results(html_file)
+def get_listings_from_search_results(html_file):
     """
     Write a function that creates a BeautifulSoup object on html_file. Parse
     through the object and return a list of tuples containing:
