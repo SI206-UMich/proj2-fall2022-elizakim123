@@ -6,7 +6,7 @@ import csv
 import unittest
 
 
-def get_listings_from_search_results(html_file):
+def get_listings_from_search_results(html_file)
     """
     Write a function that creates a BeautifulSoup object on html_file. Parse
     through the object and return a list of tuples containing:
@@ -378,3 +378,8 @@ if __name__ == '__main__':
     write_csv(database, "airbnb_dataset.csv")
     check_policy_numbers(database)
     unittest.main(verbosity=2)
+
+
+
+
+
